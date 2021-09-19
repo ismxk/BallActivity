@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BallActivity</string>
+    <string name="teama">TeamA</string>
+    <string name="teamb">TeamB</string>
+    <string name="point3">+3 points</string>
+    <string name="point2">+2 points</string>
+    <string name="point1">+1 point</string>
+    <string name="reset">reset</string>
+</resources>
