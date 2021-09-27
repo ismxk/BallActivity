@@ -13,7 +13,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="462dp"
+            android:layout_height="442dp"
             android:orientation="horizontal">
 
 
@@ -28,7 +28,7 @@
                     android:id="@+id/teama"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="5dp"
                     android:gravity="center"
                     android:text="@string/teama"
                     android:textSize="25sp" />
@@ -36,19 +36,19 @@
                 <TextView
                     android:id="@+id/score1"
                     android:layout_width="match_parent"
-                    android:layout_height="80dp"
+                    android:layout_height="60dp"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
                     android:text="0"
-                    android:textSize="60dp" />
+                    android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/btn3"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginBottom="24dp"
-                    android:background="@color/purple_200"
                     android:onClick="click"
+                    android:background="@color/purple_200"
                     android:text="@string/point3" />
 
                 <Button
@@ -56,8 +56,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginBottom="24dp"
-                    android:background="@color/purple_200"
                     android:onClick="click"
+                    android:background="@color/purple_200"
                     android:text="@string/point2" />
 
                 <Button
@@ -65,8 +65,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginBottom="24dp"
-                    android:background="@color/purple_200"
                     android:onClick="click"
+                    android:background="@color/purple_200"
                     android:text="@string/point1" />
 
             </LinearLayout>
@@ -87,7 +87,7 @@
                     android:id="@+id/teamb"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="5dp"
                     android:gravity="center"
                     android:text="@string/teamb"
                     android:textSize="25sp" />
@@ -95,19 +95,19 @@
                 <TextView
                     android:id="@+id/score2"
                     android:layout_width="match_parent"
-                    android:layout_height="80dp"
+                    android:layout_height="60dp"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
                     android:text="0"
-                    android:textSize="60dp" />
+                    android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/btnb3"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginBottom="24dp"
-                    android:background="@color/purple_200"
                     android:onClick="clickb"
+                    android:background="@color/purple_200"
                     android:text="@string/point3" />
 
                 <Button
@@ -115,8 +115,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginBottom="24dp"
-                    android:background="@color/purple_200"
                     android:onClick="clickb"
+                    android:background="@color/purple_200"
                     android:text="@string/point2" />
 
                 <Button
@@ -124,13 +124,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginBottom="24dp"
-                    android:background="@color/purple_200"
                     android:onClick="clickb"
+                    android:background="@color/purple_200"
                     android:text="@string/point1" />
 
             </LinearLayout>
-
-
 
 
         </LinearLayout>
@@ -140,11 +138,18 @@
             android:layout_width="200dp"
             android:layout_height="64dp"
             android:layout_gravity="center"
-            android:layout_margin="60dp"
-            android:background="@color/purple_200"
+            android:layout_margin="30dp"
             android:gravity="center"
             android:onClick="click"
+            android:background="@color/purple_200"
             android:text="@string/reset" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="41810038石秋美"/>
 
     </LinearLayout>
 
