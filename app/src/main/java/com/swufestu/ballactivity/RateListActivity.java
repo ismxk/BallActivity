@@ -1,18 +1,18 @@
 package com.swufestu.ballactivity;
+
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.swufestu.ballactivity.R;
 
 import java.util.ArrayList;
+
 public class RateListActivity extends AppCompatActivity {
     Handler handler;
     @Override
@@ -41,7 +41,7 @@ public class RateListActivity extends AppCompatActivity {
 
 
 
-        com.swufe.hello.RateThread dt=new com.swufe.hello.RateThread(handler);
+        com.swufestu.ballactivity.RateThread dt=new com.swufestu.ballactivity.RateThread(handler);
         Thread t=new Thread(dt);
         t.start();
     }

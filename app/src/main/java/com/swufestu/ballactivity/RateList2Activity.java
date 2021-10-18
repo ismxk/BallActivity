@@ -1,19 +1,17 @@
 package com.swufestu.ballactivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.SimpleAdapter;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.swufestu.ballactivity.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -48,7 +46,7 @@ public class RateList2Activity extends AppCompatActivity implements AdapterView.
                 }
             }
         };
-        com.swufe.hello.RateMapThread first=new com.swufe.hello.RateMapThread();
+        com.swufestu.ballactivity.RateMapThread first=new com.swufestu.ballactivity.RateMapThread();
         first.setHandler(handler);
         Thread t2 = new Thread(first);
         t2.start();
@@ -64,7 +62,7 @@ public class RateList2Activity extends AppCompatActivity implements AdapterView.
         Log.i(TAG,"onItemClick: titleStr="+titleStr);
         Log.i(TAG,"onItemClick: detailStr="+detailStr);
 
-        Intent config = new Intent(this, com.swufe.hello.Ratelist3Activity.class);
+        Intent config = new Intent(this, com.swufestu.ballactivity.Ratelist3Activity.class);
         config.putExtra("ttitle", titleStr);
         config.putExtra("ddetail", detailStr);
         //跳转新的页面

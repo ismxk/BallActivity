@@ -59,7 +59,7 @@ public class FirstActivity extends AppCompatActivity implements Runnable{
        // EditText rmb= findViewById(R.id.input_rmb);
         TextView result=findViewById(R.id.result);
         BreakIterator rmb;
-        String inp=rmb.getText().toString();cccccccccccccccccccccccccccccccc
+        String inp=rmb.getText().toString();
         if(inp.length()>0){
             float num=Float.parseFloat(inp);
             float r=0;

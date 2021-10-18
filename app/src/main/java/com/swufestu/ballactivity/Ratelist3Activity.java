@@ -1,14 +1,13 @@
 package com.swufestu.ballactivity;
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.swufestu.ballactivity.R;
 
 //汇率计算
 public class Ratelist3Activity extends AppCompatActivity implements View.OnClickListener{
